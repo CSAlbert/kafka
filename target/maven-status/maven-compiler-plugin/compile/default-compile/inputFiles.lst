@@ -1,1 +1,8 @@
-/Users/chulang/learn/JavaProject/kafka/src/main/java/com/atguigu/kafka/producer/CustomProducer.java
+D:\FlinkProjects\kafka\src\main\java\com\atguigu\kafka\producer\CustomProducerCallbackPartitions.java
+D:\FlinkProjects\kafka\src\main\java\com\atguigu\kafka\producer\CustomProducerTranactions.java
+D:\FlinkProjects\kafka\src\main\java\com\atguigu\kafka\producer\CustomProducerParameters.java
+D:\FlinkProjects\kafka\src\main\java\com\atguigu\kafka\producer\CustomProducer.java
+D:\FlinkProjects\kafka\src\main\java\com\atguigu\kafka\producer\CustomProducerCallback.java
+D:\FlinkProjects\kafka\src\main\java\com\atguigu\kafka\producer\CustomProducerAcks.java
+D:\FlinkProjects\kafka\src\main\java\com\atguigu\kafka\producer\CustomProducerSync.java
+D:\FlinkProjects\kafka\src\main\java\com\atguigu\kafka\producer\MyPartitioner.java

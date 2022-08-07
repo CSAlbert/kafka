@@ -12,7 +12,7 @@ import java.util.Properties;
  * @description 带回调函数带异步发送
  */
 public class CustomProducerCallback {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         // 0 配置
         Properties properties = new Properties();
@@ -27,7 +27,7 @@ public class CustomProducerCallback {
         KafkaProducer<String, String> kafkaProducer = new KafkaProducer<>(properties);
 
         // 2.发送数据
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 500; i++) {
             kafkaProducer.send(new ProducerRecord<>("test0805", "hello kafka" + i), new Callback() {
                 @Override
                 public void onCompletion(RecordMetadata recordMetadata, Exception e) {
@@ -36,6 +36,8 @@ public class CustomProducerCallback {
                     }
                 }
             });
+
+            Thread.sleep(1);
         }
 
         // 3 关闭资源

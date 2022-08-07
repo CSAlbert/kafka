@@ -1,1 +1,10 @@
-com/atguigu/kafka/producer/CustomProducer.class
+com\atguigu\kafka\producer\CustomProducer.class
+com\atguigu\kafka\producer\CustomProducerAcks.class
+com\atguigu\kafka\producer\CustomProducerTranactions.class
+com\atguigu\kafka\producer\CustomProducerParameters.class
+com\atguigu\kafka\producer\MyPartitioner.class
+com\atguigu\kafka\producer\CustomProducerCallbackPartitions.class
+com\atguigu\kafka\producer\CustomProducerCallback.class
+com\atguigu\kafka\producer\CustomProducerCallbackPartitions$1.class
+com\atguigu\kafka\producer\CustomProducerSync.class
+com\atguigu\kafka\producer\CustomProducerCallback$1.class
